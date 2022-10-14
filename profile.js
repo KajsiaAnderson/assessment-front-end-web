@@ -22,18 +22,4 @@ document.getElementById("ritual").addEventListener('click', favRitual)
 
 
 
-// -------neighborhood page-------
 
-function eatBtn(event) {
-    event.preventDefault()
-
-    const place = ["micky dee's", "taco bell", "wendy's", "KFC"];
-
-    let randomPlace = Math.floor(Math.random() * place.length)
-    console.log(randomPlace, place[randomPlace])
-   
-
-
-}
-
-document.getElementById("eat").addEventListener('click', eatBtn)
