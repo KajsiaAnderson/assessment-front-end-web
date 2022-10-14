@@ -1,0 +1,60 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.interest {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 10vh;
+	width: 10vw;
+}
+
+.btn {
+	background-color: rgba(253, 207, 20, 0.871);
+	height: 5vh;
+	border-radius: 10px;
+}
+
+#eat {
+	background-color: black;
+	color: white;
+	height: 5vh;
+	border-radius: 10px;
+	margin: 10px;
+}
